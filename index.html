@@ -13,12 +13,36 @@
   </head>
   <body class="px-20">
     <nav class="flex w-full h-24 items-center">
-      <label class="flex-none w-44 text-2xl">ShopCart</label>
+      <label class="flex-none w-44 text-3xl text-lime-950 font-bold"
+        >ShopCart</label
+      >
       <ul class="flex flex-1 justify-start space-x-8 text-base">
-        <li><a href="#">Categories</a></li>
-        <li><a href="#">Deals</a></li>
-        <li><a href="#">Whats' New</a></li>
-        <li><a href="#">Delivery</a></li>
+        <li class="flex items-center">
+          <a href="#"><h3 class="font-bold text-lg">Categories</h3></a>
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="h-5 w-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </li>
+        <li>
+          <a href="#"><h3 class="font-bold text-lg">Delivery</h3></a>
+        </li>
+        <li>
+          <a href="#"><h3 class="font-bold text-lg">Whats' New</h3></a>
+        </li>
+        <li>
+          <a href="#"><h3 class="font-bold text-lg">Delivery</h3></a>
+        </li>
       </ul>
       <div class="flex flex-1 justify-end space-x-20">
         <div>
@@ -31,13 +55,13 @@
           /><i class="fa fa-search"></i>
         </div>
         <div class="flex justify-end space-x-10">
-          <div>
+          <div class="flex flex-row gap-1">
             <i class="far fa-user-circle"></i>
-            <label for="">Account</label>
+            <label for=""><h3 class="font-bold text-lg">Account</h3></label>
           </div>
-          <div>
+          <div class="flex justify-center items-center">
             <i class="fa fa-shopping-cart"></i>
-            <label for="">Cart</label>
+            <label for=""><h3 class="font-bold text-lg">Cart</h3></label>
           </div>
         </div>
       </div>
@@ -62,7 +86,7 @@
     <div class="flex justify-between pr-1">
       <div class="flex gap-2">
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Headphone Type</p>
           <svg
@@ -80,7 +104,7 @@
         </button>
 
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Price</p>
           <svg
@@ -98,7 +122,7 @@
         </button>
 
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Review</p>
           <svg
@@ -115,7 +139,7 @@
           </svg>
         </button>
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Color</p>
           <svg
@@ -133,7 +157,7 @@
         </button>
 
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Material</p>
           <svg
@@ -150,7 +174,7 @@
           </svg>
         </button>
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Offer</p>
           <svg
@@ -168,7 +192,7 @@
         </button>
 
         <button
-          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-slate-400 border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">All Filters</p>
           <svg
@@ -188,7 +212,7 @@
 
       <div>
         <button
-          class="mt-12 relative flex justify-center items-center bg-white border focus:outline-none shadow text-gray-50 rounded-xl focus:ring ring-gray-200 h-9"
+          class="mt-12 relative flex justify-center items-center bg-white border focus:outline-none shadow text-black rounded-xl focus:ring ring-gray-200 h-9"
         >
           <p class="px-2">Sort By</p>
           <svg
