@@ -1987,6 +1987,11 @@ video {
   padding-left: 1.25rem;
 }
 
+.ps-7 {
+  -webkit-padding-start: 1.75rem;
+          padding-inline-start: 1.75rem;
+}
+
 .text-left {
   text-align: left;
 }
